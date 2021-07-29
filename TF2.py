@@ -14,3 +14,4 @@ with tf.GradientTape() as tape:
 
 df = tape.gradient(loss, [w, b])
 print('Gradient 1 w = ', df[0], '\n', 'Gradient 2 w =', df[1])
+print('something new')
